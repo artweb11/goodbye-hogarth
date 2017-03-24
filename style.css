@@ -26,8 +26,10 @@ html,body {
 	left: 0;
 	top: 0;
 	transform: translate3d(0,0,0);
+	-moz-perspective-origin: 150px 125px;
 	-webkit-perspective-origin: 150px 125px;
 	perspective-origin: 150px 125px;
+	-moz-perspective-origin: 150px 125px;
 	-webkit-perspective: 900;
 	perspective: 900;
 }

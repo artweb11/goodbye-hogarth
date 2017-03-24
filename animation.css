@@ -1,0 +1,284 @@
+/* ad_tool 
+[line, 0, {width: 0} ]
+[line, 2, {width: 100px} ]
+[line, 12, {width: 100px} ]
+[middle, 0, {width: 0} ]
+[middle, 6, {width: 300px}]
+[middle, 12, {width: 300px}]
+[line2, 0, {width: 0} ]
+[line2, 4, {width: 0} ]
+[line2, 6, {width: 100px} ]
+[line2, 12, {width: 100px} ]
+
+[logo, 1, {transform: rotate(-90deg) scale(0.4)}]
+[logo, 4, {transform: rotate(0deg) scale(0.8) }]
+[logo, 12, {transform: rotate(0deg) scale(0.8) }]
+
+[card1, 0, {transform: rotateY(0deg) }]
+[card1, 6, {transform: rotateY(0deg) }]
+[card1, 7, {transform: rotateY(180deg) }]
+[card1, 12, {transform: rotateY(180deg) }]
+
+[card2, 0, {transform: rotateY(-180deg) }]
+[card2, 6, {transform: rotateY(-180deg) }]
+[card2, 7, {transform: rotateY(0deg) }]
+[card2, 12, {transform: rotateY(0deg) }]
+*/
+
+/* class animations */
+
+#hogarth-logo .line{
+    -webkit-animation: line_anim 12s linear 0s infinite forwards;
+    -moz-animation: line_anim 12s linear 0s infinite forwards;
+    -ms-animation: line_anim 12s linear 0s infinite forwards;
+    -o-animation: line_anim 12s linear 0s infinite forwards;
+    animation: line_anim 12s linear 0s infinite forwards;
+}
+
+#middle{
+    -webkit-animation: middle_anim 12s linear 0s infinite forwards;
+    -moz-animation: middle_anim 12s linear 0s infinite forwards;
+    -ms-animation: middle_anim 12s linear 0s infinite forwards;
+    -o-animation: middle_anim 12s linear 0s infinite forwards;
+    animation: middle_anim 12s linear 0s infinite forwards;
+}
+
+#hogarth-logo .line2{
+    -webkit-animation: line2_anim 12s linear 0s infinite forwards;
+    -moz-animation: line2_anim 12s linear 0s infinite forwards;
+    -ms-animation: line2_anim 12s linear 0s infinite forwards;
+    -o-animation: line2_anim 12s linear 0s infinite forwards;
+    animation: line2_anim 12s linear 0s infinite forwards;
+}
+
+#hogarth-logo{
+    -webkit-animation: logo_anim 12s linear 0s infinite forwards;
+    -moz-animation: logo_anim 12s linear 0s infinite forwards;
+    -ms-animation: logo_anim 12s linear 0s infinite forwards;
+    -o-animation: logo_anim 12s linear 0s infinite forwards;
+    animation: logo_anim 12s linear 0s infinite forwards;
+}
+
+#card1{
+    -webkit-animation: card1_anim 12s linear 0s infinite forwards;
+    -moz-animation: card1_anim 12s linear 0s infinite forwards;
+    -ms-animation: card1_anim 12s linear 0s infinite forwards;
+    -o-animation: card1_anim 12s linear 0s infinite forwards;
+    animation: card1_anim 12s linear 0s infinite forwards;
+}
+
+#card2{
+    -webkit-animation: card2_anim 12s linear 0s infinite forwards;
+    -moz-animation: card2_anim 12s linear 0s infinite forwards;
+    -ms-animation: card2_anim 12s linear 0s infinite forwards;
+    -o-animation: card2_anim 12s linear 0s infinite forwards;
+    animation: card2_anim 12s linear 0s infinite forwards;
+}
+/* class animation keyframes */
+
+/* css animation line_anim: */
+@-webkit-keyframes line_anim {
+    0.00% {width:0; }
+    16.67% {width:100px; }
+    100.00% {width:100px; }
+
+}
+@-moz-keyframes line_anim {
+    0.00% {width:0; }
+    16.67% {width:100px; }
+    100.00% {width:100px; }
+
+}
+@-ms-keyframes line_anim {
+    0.00% {width:0; }
+    16.67% {width:100px; }
+    100.00% {width:100px; }
+
+}
+@-o-keyframes line_anim {
+    0.00% {width:0; }
+    16.67% {width:100px; }
+    100.00% {width:100px; }
+
+}
+@keyframes line_anim {
+    0.00% {width:0; }
+    16.67% {width:100px; }
+    100.00% {width:100px; }
+
+}
+
+/* css animation middle_anim: */
+@-webkit-keyframes middle_anim {
+    0.00% {width:0; }
+    50.00% {width:300px; }
+    100.00% {width:300px; }
+
+}
+@-moz-keyframes middle_anim {
+    0.00% {width:0; }
+    50.00% {width:300px; }
+    100.00% {width:300px; }
+
+}
+@-ms-keyframes middle_anim {
+    0.00% {width:0; }
+    50.00% {width:300px; }
+    100.00% {width:300px; }
+
+}
+@-o-keyframes middle_anim {
+    0.00% {width:0; }
+    50.00% {width:300px; }
+    100.00% {width:300px; }
+
+}
+@keyframes middle_anim {
+    0.00% {width:0; }
+    50.00% {width:300px; }
+    100.00% {width:300px; }
+
+}
+
+/* css animation line2_anim: */
+@-webkit-keyframes line2_anim {
+    0.00% {width:0; }
+    33.33% {width:0; }
+    50.00% {width:100px; }
+    100.00% {width:100px; }
+
+}
+@-moz-keyframes line2_anim {
+    0.00% {width:0; }
+    33.33% {width:0; }
+    50.00% {width:100px; }
+    100.00% {width:100px; }
+
+}
+@-ms-keyframes line2_anim {
+    0.00% {width:0; }
+    33.33% {width:0; }
+    50.00% {width:100px; }
+    100.00% {width:100px; }
+
+}
+@-o-keyframes line2_anim {
+    0.00% {width:0; }
+    33.33% {width:0; }
+    50.00% {width:100px; }
+    100.00% {width:100px; }
+
+}
+@keyframes line2_anim {
+    0.00% {width:0; }
+    33.33% {width:0; }
+    50.00% {width:100px; }
+    100.00% {width:100px; }
+
+}
+
+/* css animation logo_anim: */
+@-webkit-keyframes logo_anim {
+    8.33% {-webkit-transform:rotate(-90deg) scale(0.4); }
+    33.33% {-webkit-transform:rotate(0deg) scale(0.8); }
+    100.00% {-webkit-transform:rotate(0deg) scale(0.8); }
+
+}
+@-moz-keyframes logo_anim {
+    8.33% {-moz-transform:rotate(-90deg) scale(0.4); }
+    33.33% {-moz-transform:rotate(0deg) scale(0.8); }
+    100.00% {-moz-transform:rotate(0deg) scale(0.8); }
+
+}
+@-ms-keyframes logo_anim {
+    8.33% {-ms-transform:rotate(-90deg) scale(0.4); }
+    33.33% {-ms-transform:rotate(0deg) scale(0.8); }
+    100.00% {-ms-transform:rotate(0deg) scale(0.8); }
+
+}
+@-o-keyframes logo_anim {
+    8.33% {-o-transform:rotate(-90deg) scale(0.4); }
+    33.33% {-o-transform:rotate(0deg) scale(0.8); }
+    100.00% {-o-transform:rotate(0deg) scale(0.8); }
+
+}
+@keyframes logo_anim {
+    8.33% {transform:rotate(-90deg) scale(0.4); }
+    33.33% {transform:rotate(0deg) scale(0.8); }
+    100.00% {transform:rotate(0deg) scale(0.8); }
+
+}
+
+/* css animation card1_anim: */
+@-webkit-keyframes card1_anim {
+    0.00% {-webkit-transform:rotateY(0deg); }
+    50.00% {-webkit-transform:rotateY(0deg); }
+    58.33% {-webkit-transform:rotateY(180deg); }
+    100.00% {-webkit-transform:rotateY(180deg); }
+
+}
+@-moz-keyframes card1_anim {
+    0.00% {-moz-transform:rotateY(0deg); }
+    50.00% {-moz-transform:rotateY(0deg); }
+    58.33% {-moz-transform:rotateY(180deg); }
+    100.00% {-moz-transform:rotateY(180deg); }
+
+}
+@-ms-keyframes card1_anim {
+    0.00% {-ms-transform:rotateY(0deg); }
+    50.00% {-ms-transform:rotateY(0deg); }
+    58.33% {-ms-transform:rotateY(180deg); }
+    100.00% {-ms-transform:rotateY(180deg); }
+
+}
+@-o-keyframes card1_anim {
+    0.00% {-o-transform:rotateY(0deg); }
+    50.00% {-o-transform:rotateY(0deg); }
+    58.33% {-o-transform:rotateY(180deg); }
+    100.00% {-o-transform:rotateY(180deg); }
+
+}
+@keyframes card1_anim {
+    0.00% {transform:rotateY(0deg); }
+    50.00% {transform:rotateY(0deg); }
+    58.33% {transform:rotateY(180deg); }
+    100.00% {transform:rotateY(180deg); }
+
+}
+
+/* css animation card2_anim: */
+@-webkit-keyframes card2_anim {
+    0.00% {-webkit-transform:rotateY(-180deg); }
+    50.00% {-webkit-transform:rotateY(-180deg); }
+    58.33% {-webkit-transform:rotateY(0deg); }
+    100.00% {-webkit-transform:rotateY(0deg); }
+
+}
+@-moz-keyframes card2_anim {
+    0.00% {-moz-transform:rotateY(-180deg); }
+    50.00% {-moz-transform:rotateY(-180deg); }
+    58.33% {-moz-transform:rotateY(0deg); }
+    100.00% {-moz-transform:rotateY(0deg); }
+
+}
+@-ms-keyframes card2_anim {
+    0.00% {-ms-transform:rotateY(-180deg); }
+    50.00% {-ms-transform:rotateY(-180deg); }
+    58.33% {-ms-transform:rotateY(0deg); }
+    100.00% {-ms-transform:rotateY(0deg); }
+
+}
+@-o-keyframes card2_anim {
+    0.00% {-o-transform:rotateY(-180deg); }
+    50.00% {-o-transform:rotateY(-180deg); }
+    58.33% {-o-transform:rotateY(0deg); }
+    100.00% {-o-transform:rotateY(0deg); }
+
+}
+@keyframes card2_anim {
+    0.00% {transform:rotateY(-180deg); }
+    50.00% {transform:rotateY(-180deg); }
+    58.33% {transform:rotateY(0deg); }
+    100.00% {transform:rotateY(0deg); }
+
+}

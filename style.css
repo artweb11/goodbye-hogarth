@@ -1,0 +1,118 @@
+html,body {
+	padding: 0;
+	margin: 0;
+	background: #fff;
+}
+* {
+	box-sizing: border-box;
+}
+#banner-container {
+	position: absolute;
+	
+	left: 50%;
+	top: 50%;
+	margin-left: -150px;
+	margin-top: -125px;
+	width: 300px;
+	height: 250px;
+	border: solid 1px #e0e0e0;
+	overflow: hidden;
+	
+}
+
+
+#stage {
+	position: absolute;
+	left: 0;
+	top: 0;
+	transform: translate3d(0,0,0);
+	-webkit-perspective-origin: 150px 125px;
+	perspective-origin: 150px 125px;
+	-webkit-perspective: 900;
+	perspective: 900;
+}
+.card {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 300px;
+	height: 250px;
+}
+#card1 {
+	-webkit-transform: rotateY(0deg);
+	-moz-transform: rotateY(0deg);
+	-ms-transform: rotateY(0deg);
+	transform: rotateY(0deg);
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+#card2 {
+	background: #000;
+	-webkit-transform: rotateY(-180deg);
+	-moz-transform: rotateY(-180deg);
+	-ms-transform: rotateY(-180deg);
+	transform: rotateY(-180deg);
+
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+#card2 .center {
+	width: 300px;
+	height: 250px;
+	display: table;
+}
+#card2 .center .text {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	font-size: 28px;
+	color: #fff;
+	font-family: Arial;
+	font-weight: bold;
+}
+#card2 .center .text .small {
+	font-size: 16px;
+}
+#hogarth-logo {
+	margin-left: -20px;
+	margin-top: -25px;
+	background: #000;
+	width: 340px;
+	height: 300px;
+	-webkit-transform: rotate(-90deg) scale(0.4);
+	-moz-transform: rotate(-90deg) scale(0.4);
+	-ms-transform: rotate(-90deg) scale(0.4);
+	transform: rotate(-90deg) scale(0.4);
+}
+#hogarth-logo #lines01 {
+	position: absolute;
+	left: 20px;
+	top: 20px;
+}
+#hogarth-logo #lines02 {
+	position: absolute;
+	left: 220px;
+	top: 20px;
+	text-align: right;
+}
+#hogarth-logo .line1 {
+	position: relative;
+	width: 0;
+	height: 20px;
+	background: #fff;
+	border-radius: 10px;
+	margin-bottom: 20px;
+}
+#hogarth-logo .line2 {
+	/*float: right;	*/
+}
+#hogarth-logo .gap {
+	position: relative;
+	width: 100px;
+	height: 20px;
+	background: transparent;
+	margin-bottom: 20px;
+}
+#hogarth-logo #middle {
+	width: 0;
+}
